@@ -9,6 +9,6 @@ function nowServing(katzDeliLine){
   } else {
     return `Currently serving ${katzDeliLine[0]}.`;
     const deliLine = katzDeliLine.splice(0,1);
-    return katzDeliLine;
+    return deliLine;
   }
 }
